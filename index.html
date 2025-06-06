@@ -1,30 +1,14 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta lang="pt-br">
-        <title> Primeiro projeto no github </title>
-    </head>
-    <body>
-          <header>
-               <img src="logo.png">
-               <nav>
-                    <ul>
-                         <li><a href="#">Início</a></li>
-                         <li><a href="#">Sobre</a></li>
-                         <li><a href="#">Contato</a></li>
-                         <li><a href="#">Portifólio</a></li>
-                    </ul>
-               </nav>
-          </header>
-          <main>
-               <h1> Olá, mundo!</h1>
-               <h2> Olá, mundo!</h2>
-               <h3> Olá, mundo!</h3>
-               <h4> Olá, mundo!</h4>
-               <h5> Olá, mundo!</h5>
-               <h6> Olá, mundo!</h6>
-               <p> Isso é um parágrafo </p>
-          </main>
-    </body>
-</html>
+CREATE TABLE clientes(
+    id int,
+    nome varchar(255),
+    data_nasc data,
+    telefone int
+);
+
+INSERT INTO clientes (id, nome, data_nasc, telefone)
+    values (1, "Lucas", "2008-12-30", 4187939665);
+
+INSERT INTO clientes (id, nome, data_nasc, telefone)
+    values (2, "Calebe", "2004-02-28", 6534193868);
+
+SELECT * FROM clientes
