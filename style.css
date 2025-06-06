@@ -1,0 +1,17 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: greenyellow;
+}
+
+body header nav ul li {
+    display: inline;
+}
+
+.programmingLanguages {
+    width: 100px;
+    height: 100px;
+}
