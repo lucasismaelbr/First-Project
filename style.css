@@ -1,5 +1,5 @@
 * {
-    padding: 0px;
+    padding: 7px;
     margin: 0px;
 }
 
@@ -10,13 +10,36 @@ body {
 body header {
     height: 150px;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     border: 1px solid black;
 }
 
-body header nav ul li {
-    display: inline;
+body header nav ul li a{
+    text-decoration: none;
+    color: #333;
 }
+
+body header nav ul li a:hover {
+    color: red;
+}
+
+body header img{
+    height: 100%;
+}
+
+body nav ul {
+    display: flex;
+}
+
+body header nav ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+/*body header nav ul li {
+    display: inline;
+}*/
 
 .programmingLanguages {
     width: 100px;
