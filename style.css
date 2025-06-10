@@ -37,7 +37,15 @@ body header nav ul li {
     margin: 10px;
 }
 
-.programmingLanguages {
+body main table .programmingLanguages {
     width: 100px;
     height: 100px;
+}
+
+body main #tableOne th {
+    border: 1px solid black;
+}
+
+body main #tableTwo, th, td {
+    border: 1px solid black;
 }
