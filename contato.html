@@ -21,9 +21,39 @@
                </nav>
           </header>
             <main>
-                <form>
-                    <!-- Add form de captação de lead -->
+                <!-- Add form de captação de lead -->
 
+                <form action="processar.php">
+                    <!-- Nome do lead -->
+                    <label for="nome"> Nome: </label>
+                    <input type="text" id="nome" name="name" autocomplete="on" required>
+                    <br>
+
+                    <!-- Email do lead -->
+                    <label for="email"> Email: </label>
+                    <input type="email" id="email" name="email" autocomplete="on" required>
+                    <br>
+
+                    <!-- Telefone do lead -->
+                    <label for="phonenumber"> Telefone: </label>
+                    <input type="tel" id="phonenumber" name="phonenumber" autocomplete="on" required>
+                    <br>
+
+                    <!-- Tamanho da Empresa: -->
+                    <label for="info"> Informações da Empresa (B2B): </label>
+                    <select name="tamanhoDaEmpresa" id="tamanhoDaEmpresa"> 
+                        <option value="null"> Qual o tamanho da sua empresa atualmente? </option>
+                        <option value="MEI"> Microempreendedor Individual (MEI) </option>
+                        <option value="ME"> Microempresa (ME) </option>
+                        <option value="EPP"> Empresa de Pequeno Porte (EPP) </option>
+                        <option value="EMG"> Empresa de Médio Porte e Grande Empresa </option>
+                    </select>
+                    <br>
+
+                    <!-- Botão de enviar -->
+                    <button type="submit"> Enviar </button>
+                    
+                    <!-- Fim do Form-->
                 </form>
             </main>
     </body>
