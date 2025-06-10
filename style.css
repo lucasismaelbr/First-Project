@@ -37,7 +37,19 @@ body header nav ul li {
     margin: 10px;
 }
 
-.programmingLanguages {
+body header img.programmingLanguages {
     width: 100px;
     height: 100px;
+}
+
+body main table:nth-child(7) {
+    border: 1px solid black;
+}
+
+body main table tr th {
+    border: 1px solid black;
+}
+
+body main table tr td {
+    border: 1px solid black;
 }
