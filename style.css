@@ -3,7 +3,7 @@
     margin: 0px;
 }
 
-body {
+main {
     background-color: gray;
 }
 
@@ -37,6 +37,10 @@ body header nav ul li {
     margin: 10px;
 }
 
+body main ul#nextsteps{
+    list-style: none;
+}
+
 body main table .programmingLanguages {
     width: 100px;
     height: 100px;
@@ -48,4 +52,25 @@ body main #tableOne th {
 
 body main #tableTwo, th, td {
     border: 1px solid black;
+}
+
+body footer {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+
+body footer h1 {
+    color: #fff;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+}
+
+body footer p {
+    color: #ccc;
+    font-size: 20px;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
 }
